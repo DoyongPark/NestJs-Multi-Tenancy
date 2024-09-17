@@ -3,7 +3,7 @@ export default () => ({
     port: process.env.PORT || 3000,
   },
   database: {
-    connectionString: process.env.DB_CONNECTION_STRING,
+    connectionString: 'mongodb://inventis:dpass%40word@20.196.96.247:27017/dealer365-nyc?authSource=admin',
   },
   security: {
     encryptionSecretKey: process.env.ENCRYPTION_KEY,
